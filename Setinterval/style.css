@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 700px;
+    padding: 13px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.dowunload{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50px;
+}
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:active{
+    scale: 0.96;
+}
+.growth{
+    width: 0%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: rgb(21, 175, 21);
+}
